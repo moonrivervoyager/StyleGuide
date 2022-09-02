@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body{
+	background-color: #0075a2;
+}
+h1.mainbanner{
+	background-color: #fff;
+	text-align: center;
+}
+.headerimg{
+	background-image: url(styleguide.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 90px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.mainheader{
+	padding-top: 15px;
+	margin: auto;
+	background-color: #fff;
+}
+
+h1{
+	font-family: Yesteryear, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color:#F7567C;
+	margin: 5px;
+	padding-bottom: 0px;
+	background-color: #99E1D9;
+}
+
+.mainpink{
+	background:#F7567C;
+}
+.mainpeach{
+	background:#FFD5C2;
+}
+.mainblue{
+	background:#0075a2;
+}
+.mainaqua{
+	background:#99E1D9;
+}
+.mainorange{
+	background: #f28f3b;
+}
+
+
+.section1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 500;
+	padding-top: 5px;
+	padding-bottom: 2em;
+
+}
+
+.section1 h1{
+	margin-top: 35px;
+	font-family: "Poiret One", inter, sans-serif;
+	font-size: 35px;
+	margin: 0px 0px 35px 0px;
+	background-color: #99E1D9;
+}
+
+.section1 .colors {
+	border: 2px solid #f28f3b;
+	padding: 40px;
+	width: 75%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-column-gap: 45px;
+	background-color: #fff;
+	}
+
+
+.section1 .colors .color{
+		background: #fff;
+		box-shadow: 0.4px 0.4px 35px rgba(0,0,0,0.116);
+		padding: 8px 10px 20px 10px;
+		border-radius: 14px;
+	}
+	
+
+.section1 .colors .color .color-img{
+	height: 250px;
+	margin-bottom: 15px;
+}
+
+
+.section1 .colors .color .color-img:nth-child(1){
+	margin-top: 15px;
+	font-family: inter;
+}
+.section1 .colors .color .color-text{
+	margin-top: 15px;
+	font-family: inter;
+}
+
+.section2 h1{
+	margin-top: 35px;
+	font-family: "Poiret One", inter, sans-serif;
+	font-size: 35px;
+	margin: 0px 0px 35px 0px;
+	background-color: #99E1D9;
+}
+
+.font-container{
+	border: 2px solid #f28f3b;
+	padding: 40px;
+	width: 75%;
+	margin: auto;
+	background-color: #fff;
+	padding-bottom: 2em;
+	margin-bottom: 35px;
+}
+
+p.yesteryear-main{
+	font-family: yesteryear, cursive;
+	font-size: 50px;
+	color: #F7567C;
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+p.yesteryear-text{
+	font-family: yesteryear, cursive;
+	font-size: 40px;
+	color: #F7567C;
+	text-decoration: none;
+	padding-bottom: 5px;
+	}
+
+p.poiret-main{
+		font-family: "Poiret One", cursive;
+		font-size: 50px;
+		color: #F7567C;
+		text-decoration: underline;
+		padding-bottom: 5px;
+	}
+	
+p.poiret-text{
+		font-family: "Poiret One", cursive;
+		font-size: 30px;
+		color: #000;
+		text-decoration: none;
+		padding-bottom: 5px;
+		}
+	
+p.brygada-main{
+			font-family: "Brygada 1918", serif;
+			font-size: 45px;
+			color: #F7567C;
+			text-decoration: underline;
+			padding-bottom: 5px;
+		}
+		
+p.brygada-text{
+			font-family: "Brygada1918", serif;
+			font-size: 28px;
+			color: #000;
+			text-decoration: none;
+			padding-bottom: 5px;
+			}
+p.brygada-text-bold{
+				font-family: "Brygada1918";
+				font-size: 28px;
+				color: #000;
+				padding-bottom: 5px;
+				font-weight: bold;
+				}		
+
+p.brygada-text-italic{
+					font-family: "Brygada1918";
+					font-size: 28px;
+					color: #000;
+					padding-bottom: 5px;
+					font-style: italic;
+					}
+
+.section3 h1{
+	margin-top: 35px;
+	font-family: "Poiret One", inter, sans-serif;
+	font-size: 35px;
+	margin: 0px 0px 35px 0px;
+	background-color: #99E1D9;
+	text-align: center;
+					}
+					
+div.text-container{
+	border: 2px solid #f28f3b;
+	padding: 10px;
+	padding-bottom: 45px;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 25px;
+	text-align: center;
+	display: block;
+	background-color: #fff;
+					}
+
+ul.headone{
+	background-color: #fff;
+	margin: auto;
+	display: inline-block;
+	text-align: left;
+	padding: 10px;
+	font-size: larger;
+	padding-bottom: 0;
+}
+
+h1.mainheading{
+	text-align: center;
+	background-color: #fff;
+	padding: 0px;
+	margin: auto;
+	display: block;
+}
+ul.headtwo{
+
+	text-align: left;
+	padding: 0;
+	font-size: large;
+	display: inline-block;
+	background-color: #fff;
+	
+}
+
+h1.subheading{
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+	display: block;
+	font-family: "Brygada 1918", inter, sans-serif;
+	font-size: 25px;
+	font-weight: 450;
+	background-color: #fff;
+
+}
+
+ul.headthree{
+
+	text-align: left;
+	padding-bottom: 0;
+	font-size: large;
+	display: inline-block;
+
+}
+
+p.paragraph{
+	text-align: center;
+	padding: 20px;
+	margin: auto;
+	display: block;
+	font-family: "Brygada 1918", inter, sans-serif;
+	font-size: 15px;
+	font-weight: 450;
+	color: #F7567C;
+
+}
+
+.section4 h1{
+	margin-top: 35px;
+	font-family: "Poiret One", inter, sans-serif;
+	font-size: 35px;
+	margin: 0px 0px 35px 0px;
+	background-color: #99E1D9;
+	text-align: center;
+					}
+					
+	div.buttons{
+	border: 2px solid #f28f3b;
+	padding: 10px;
+	padding-bottom: 45px;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 25px;
+	text-align: center;
+	display: block;
+	background-color: #fff;
+										}
+										
+.section4 h2{
+	color: #F7567C;
+	font-family: "Poiret One", sans-serif;
+}
